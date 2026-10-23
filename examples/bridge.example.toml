@@ -1,0 +1,13 @@
+team_id = "T_REPLACE_ME"
+channels = ["C_REPLACE_ME"]
+users = ["U_REPLACE_ME"]
+owner_label = "My local Codex"
+codex_executable = "/absolute/path/to/codex"
+codex_config = "/absolute/path/to/.codex/config.toml"
+codex_cwd = "/absolute/path/to/empty-session-root"
+state_dir = "/absolute/path/to/private-bridge-state"
+included_usage_verified = false
+
+# Optional read-only GitHub access; omit for conversation-only operation.
+# This command runs on the Codex host. For Windows Codex + WSL see docs/operations.md.
+# github_mcp_command = ["/absolute/path/to/uv", "run", "--locked", "--no-dev", "--project", "/absolute/path/to/codex-slack-bridge", "--", "python", "-m", "codex_slack_bridge.jobs.github_mcp", "--repository", "your-org/your-repo"]
